@@ -1,0 +1,46 @@
+<DOCTYPE! html>
+  <html>
+    <head>
+      <meta charset="UTF-8"/>
+      <meta name="author content" content="Joselyn"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <link rel="stylesheet" href="encriptador.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="encriptador.css">
+      <script src="encriptador.js"></script>
+      <title> Challenge</title>
+   </head>
+   <body>
+     <main>
+        <section class="container">
+            <nav>
+                <img src="/Vector.png" alt="logo" class="alura">
+             </nav>
+            <article class="Ingresar">
+            <textarea rows="1" col="1" class="textoIngresar"  placeholder="Ingrese el texto aquí " id="intext"></textarea>
+            </article>
+            <article class="Muñeco">
+                <img src="/Muñeco.png" alt="muñeco" class="imagen" id="ilustracion">
+                  <h2 id="ningun"> Ningún mensaje fue encontrado</h2>
+                  <textarea rows="1" col="1" placeholder="Ingrese el texto que desee desencriptar o encriptar"id="textare"></textarea>
+                <div style="display:none" id="copy">
+                  <textarea rows="1" col="1" placeholder="Ingrese el texto que desee desencriptar o encriptar" id="nuevo"></textarea>
+                  <button id="button" onclick="myFunction()">Copy text</button>
+                </div>
+            </article>
+            <article class="encriptar">
+                <div class="vectorParrafo">
+                  <img src="/Vector (1).png" alt="advertencia" class="advertencia">
+                  <p class="parrafo">Solo letras minúsculas y sin acentos</p>
+                </div>
+                <div class="buttons">
+                    <input type="submit" value="Encriptar" class="encrip" id="encrip" onclick="encriptar()" /> 
+                    <input type="submit" value="Desencriptar" class="desencrip" id="desencrip" onclick="desencriptar()" /> 
+                </div>
+            </article>
+        </section>
+     </main>
+   </body>   
+  </html>
