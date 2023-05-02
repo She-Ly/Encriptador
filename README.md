@@ -19,4 +19,4 @@ El proyecto está enfocado en la encriptación, desencriptación y copiado del t
 Aprender a utilizar las etiquetas de HTML5 y las propiedades de CSS3 así como utilizar lo aprendido en JavaScript;
 
 ## 🎞¡Link al Demo!
-Visualiza mi proyecto aquí🔦 [Encriptador](https://she-ly.github.io/)
+Visualiza mi proyecto aquí🔦 [Encriptador](https://she-ly.github.io/Encriptador/)
